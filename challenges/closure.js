@@ -17,8 +17,16 @@ function myFunction() {
 myFunction();
 
 // Explanation: 
-
+//nestedFunction can access the variable 'internal' because the variable is within the block scope of myFunction. 
 
 /* Task 2: Counter */
 
 /* Create a function called `summation` that accepts a parameter and uses a counter to return the summation of that number. For example, `summation(4)` should return 10 because 1+2+3+4 is 10. */
+
+function summation(num) {
+  const counter = []
+  
+  function name(params) {
+    
+  }
+}
